@@ -1,1 +1,3 @@
-console.log('\'Allo \'Allo!');
+$(window).ready(function(){
+  $('.sortable').sortable();
+});

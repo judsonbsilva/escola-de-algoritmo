@@ -1,8 +1,13 @@
 $icon-font-path: '../fonts/';
 
+// googlefonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,200);
+//
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
 
 body {
 	background:#eee;
@@ -94,11 +99,13 @@ body {
 	margin-top: 10px;
 	text-align: right;
 }
-
+.wizard .question .sortable-title {
+  text-align: center;
+  font-weight: bolder;
+}
 .wizard .question .options {
 	background:#eee;
 	padding: 15px;
-	font-weight: bold;
 	border-radius:40px;
 	margin:5px;
 	cursor:pointer;
