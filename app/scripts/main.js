@@ -1,11 +1,10 @@
 'use strict';
 
-try {
-  if( window.hasOwnProperty('$') ){
-    window.$(window).ready(function(){
-      window.$('.sortable').sortable();
-    });
-  }
-} catch(e){
-  console.log(e);
+if( window.hasOwnProperty('$') ){
+  window.$(window).ready(function(){
+    window.$('.sortable').sortable();
+  });
 }
+
+if( window.hasOwnProperty('SyntaxHighlighter') )
+      window.SyntaxHighlighter.all();
