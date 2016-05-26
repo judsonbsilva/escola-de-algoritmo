@@ -39,12 +39,34 @@ body {
 .panel-default {
 	border:none;
 }
+
+header.home {
+	background: url(../images/background-home.png);
+}
+.home .jumbotron {
+	//margin-bottom: 0px;
+	background: none;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
 .home .jumbotron .title {
 	text-transform: uppercase;
 	font-weight: bolder;
-	color:#00262e;
+	//color:#00262e;
+	color:#fff;
 }
-.home .thumbnail { border: none }
+
+.home .jumbotron .lead {
+	color: #7774d1;
+	font-weight: 500;
+}
+
+.container.home.main {
+	margin-top: -70px;
+}
+
+.home .thumbnail {
+	border: none;
+}
 
 .home .thumbnail .lead {
   text-align: justify;
