@@ -6,5 +6,6 @@ if( window.hasOwnProperty('$') ){
   });
 }
 
-if( window.hasOwnProperty('SyntaxHighlighter') )
-      window.SyntaxHighlighter.all();
+if( window.hasOwnProperty('SyntaxHighlighter') ){
+  window.SyntaxHighlighter.all();
+}
