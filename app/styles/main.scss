@@ -137,6 +137,16 @@ header.home {
 	background:#ccc;
 }
 
+.wizard .question .letter-input-question .form-control {
+	width: 50px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.wizard .question .letter-input-question .control-label {
+	font-weight: normal;
+}
+
 .list-colorful {
 	font-size: 1.2em;
 }
